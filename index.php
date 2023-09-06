@@ -8,5 +8,9 @@
     <body>
         <h1>Dashboard</h1>
         <h2>Menu</h2>
+
+        <a href="">user</a>
+        <a href="">data</a>
+        <a href="">file</a>
     </body>
 </html>
