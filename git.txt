@@ -1,0 +1,56 @@
+Git adalah vcs (version control sistem)
+
+digunakan untuk melihat perubahan kode
+
+dapat digunakan untuk kolaborasi
+
+Apa yang bisa dilakukan oleh git?
+- Manajemen proyek = repositori
+- copy proyek = clone
+- mengontrol dan track perubahan = staging dan comitting
+- mengerjakan bagian versi berbeda = branch dan merge
+- versi terbaru dari proyek = pull
+- local update ke main proyek = push
+- perubahan, penambahan, penghapusan = modified
+
+git config --global user.name = digunakan untuk set nama
+
+git config --global user.email = digunakan untuk set email
+
+mkdir = digunakan untuk membuat direktori
+
+git init = membuat repositori
+
+ls(list file) = melihat file
+
+git status = digunakan untuk mengecek repositori
+
+Repo folder git dapat memiliki 2 status :
+- Tracked   = file yang sudah dimasukkan ke repo git
+- Untracked = file yang belum dimasukkan repo git
+
+staged = adalah file yang ready di comit ke repo 
+
+git add = staging file
+
+git restore --stage = unstage file
+
+git add --all = staging semua file
+
+"When we commit, we should always include a message."
+
+git log = untuk melihat riwayat comit
+
+git help = untuk melihat command git
+
+"Branches allow you to work on different parts of a project without impacting the main branch."
+
+git branch = buat branch
+
+git checkout = pilih branch
+
+git merge = menyatukan branch dengan branch master. Untuk melakukan merge harus dari branch master. setelah itu delete branch yang di marge
+
+git branch -d = menghapus branch
+
+--GA NGERTI MERGE CONFLICT--
