@@ -56,3 +56,11 @@ git merge = menyatukan branch dengan branch master. Untuk melakukan merge harus 
 git branch -d = menghapus branch
 
 --GA NGERTI MERGE CONFLICT--
+
+git remote add origin = ngasih remote repo
+
+git remote remove origin = hapus origin
+
+git remote -v = ngecek list origin
+
+git push = digunakan untuk memasukkan segala file ke github
