@@ -31,7 +31,7 @@ Repo folder git dapat memiliki 2 status :
 
 staged = adalah file yang ready di comit ke repo 
 
-git add = staging file
+git add [nama-file]= staging file
 
 git restore --stage = unstage file
 
@@ -39,7 +39,7 @@ git add --all = staging semua file
 
 "When we commit, we should always include a message."
 
-git commit = melakukan pemindahan perubahan ke repo
+git commit -m["massage"] = melakukan pemindahan perubahan ke repo
 
 git log = untuk melihat riwayat comit
 
@@ -47,11 +47,11 @@ git help = untuk melihat command git
 
 "Branches allow you to work on different parts of a project without impacting the main branch."
 
-git branch = buat branch
+git branch [nama-branch]= buat branch
 
-git checkout = pilih branch
+git checkout [nama-branch] = pilih branch
 
-git merge = menyatukan branch dengan branch master. Untuk melakukan merge harus dari branch master. setelah itu delete branch yang di marge
+git merge [nama branch] = menyatukan branch dengan branch master. Untuk melakukan merge harus dari branch master. setelah itu delete branch yang di marge
 
 git branch -d = menghapus branch
 
