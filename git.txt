@@ -39,6 +39,8 @@ git add --all = staging semua file
 
 "When we commit, we should always include a message."
 
+git commit = melakukan pemindahan perubahan ke repo
+
 git log = untuk melihat riwayat comit
 
 git help = untuk melihat command git
